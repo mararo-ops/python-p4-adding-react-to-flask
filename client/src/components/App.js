@@ -27,7 +27,7 @@ function App() {
   }
 
   function handleUpdateMessage(updatedMessageObj) {
-    const updatedMessages = messages.map((message) => {
+    const updatedMessagers = messages.map((message) => {
       if (message.id === updatedMessageObj.id) {
         return updatedMessageObj;
       } else {
